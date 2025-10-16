@@ -7,8 +7,8 @@ import (
 	"os"
 
 	"github.com/jackc/pgtype"
-	"github.com/vingarcia/ksql"
-	"github.com/vingarcia/ksql/adapters/kpgx"
+	"github.com/vingarcia/kbuilder"
+	"github.com/vingarcia/kbuilder/adapters/kpgx"
 )
 
 type User struct {

@@ -4,7 +4,7 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/vingarcia/ksql"
+	"github.com/vingarcia/kbuilder"
 	"strconv"
 	"strings"
 	"unicode"

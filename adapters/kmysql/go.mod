@@ -1,4 +1,4 @@
-module github.com/vingarcia/ksql/adapters/kmysql
+module github.com/vingarcia/kbuilder/adapters/kmysql
 
 go 1.14
 
@@ -8,5 +8,5 @@ require (
 	github.com/google/go-cmp v0.5.6 // indirect
 	github.com/lib/pq v1.10.4 // indirect
 	github.com/ory/dockertest/v3 v3.10.0
-	github.com/vingarcia/ksql v1.12.3
+	github.com/vingarcia/kbuilder v1.12.3
 )

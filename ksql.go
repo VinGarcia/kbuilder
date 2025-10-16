@@ -10,10 +10,10 @@ import (
 	"sync"
 	"unicode"
 
-	"github.com/vingarcia/ksql/helpers/modifiers"
-	"github.com/vingarcia/ksql/helpers/structs"
-	"github.com/vingarcia/ksql/ksqlmodifiers"
-	"github.com/vingarcia/ksql/sqldialect"
+	"github.com/vingarcia/kbuilder/helpers/modifiers"
+	"github.com/vingarcia/kbuilder/helpers/structs"
+	"github.com/vingarcia/kbuilder/ksqlmodifiers"
+	"github.com/vingarcia/kbuilder/sqldialect"
 )
 
 var selectQueryCache = initializeQueryCache()

@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/vingarcia/ksql"
-	"github.com/vingarcia/ksql/adapters/ksqlite3"
+	"github.com/vingarcia/kbuilder"
+	"github.com/vingarcia/kbuilder/adapters/ksqlite3"
 )
 
 var UsersTable = ksql.NewTable("users")

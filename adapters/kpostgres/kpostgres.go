@@ -3,8 +3,8 @@ package kpostgres
 import (
 	"database/sql"
 
-	"github.com/vingarcia/ksql"
-	"github.com/vingarcia/ksql/sqldialect"
+	"github.com/vingarcia/kbuilder"
+	"github.com/vingarcia/kbuilder/sqldialect"
 )
 
 // NewFromSQLDB builds a ksql.DB from a *sql.DB instance

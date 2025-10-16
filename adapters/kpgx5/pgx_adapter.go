@@ -7,7 +7,7 @@ import (
 	"github.com/jackc/pgx/v5"
 	"github.com/jackc/pgx/v5/pgconn"
 	"github.com/jackc/pgx/v5/pgxpool"
-	"github.com/vingarcia/ksql"
+	"github.com/vingarcia/kbuilder"
 )
 
 // PGXAdapter adapts the sql.DB type to be compatible with the `DBAdapter` interface

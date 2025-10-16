@@ -6,9 +6,9 @@ import (
 
 	gomock "github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
-	"github.com/vingarcia/ksql"
-	"github.com/vingarcia/ksql/ksqltest"
-	"github.com/vingarcia/ksql/nullable"
+	"github.com/vingarcia/kbuilder"
+	"github.com/vingarcia/kbuilder/ksqltest"
+	"github.com/vingarcia/kbuilder/nullable"
 )
 
 func TestCreateUserWithGoMock(t *testing.T) {

@@ -1,4 +1,4 @@
-module github.com/vingarcia/ksql
+module github.com/vingarcia/kbuilder
 
 go 1.14
 

@@ -1,7 +1,7 @@
 [![CI](https://github.com/VinGarcia/ksql/actions/workflows/ci.yml/badge.svg)](https://github.com/VinGarcia/ksql/actions/workflows/ci.yml)
 [![codecov](https://codecov.io/gh/VinGarcia/ksql/branch/master/graph/badge.svg?token=5CNJ867C66)](https://codecov.io/gh/VinGarcia/ksql)
-[![Go Reference](https://pkg.go.dev/badge/github.com/vingarcia/ksql.svg)](https://pkg.go.dev/github.com/vingarcia/ksql)
-![Go Report Card](https://goreportcard.com/badge/github.com/vingarcia/ksql)
+[![Go Reference](https://pkg.go.dev/badge/github.com/vingarcia/kbuilder.svg)](https://pkg.go.dev/github.com/vingarcia/kbuilder)
+![Go Report Card](https://goreportcard.com/badge/github.com/vingarcia/kbuilder)
 
 # KSQL the Keep it Simple SQL library
 
@@ -65,37 +65,37 @@ they are:
   and [pgx](https://github.com/jackc/pgx) version 4, download it with:
 
   ```bash
-  go get github.com/vingarcia/ksql/adapters/kpgx
+  go get github.com/vingarcia/kbuilder/adapters/kpgx
   ```
 - `kpgx5.New(ctx, os.Getenv("DATABASE_URL"), ksql.Config{})` for Postgres, it works on top of `pgxpool`
   and [pgx](https://github.com/jackc/pgx) version 5, download it with:
 
   ```bash
-  go get github.com/vingarcia/ksql/adapters/kpgx5
+  go get github.com/vingarcia/kbuilder/adapters/kpgx5
   ```
 - `kmysql.New(ctx, os.Getenv("DATABASE_URL"), ksql.Config{})` for MySQL, it works on top of `database/sql`,
   download it with:
 
   ```bash
-  go get github.com/vingarcia/ksql/adapters/kmysql
+  go get github.com/vingarcia/kbuilder/adapters/kmysql
   ```
 - `ksqlserver.New(ctx, os.Getenv("DATABASE_URL"), ksql.Config{})` for SQLServer, it works on top of `database/sql`,
   download it with:
 
   ```bash
-  go get github.com/vingarcia/ksql/adapters/ksqlserver
+  go get github.com/vingarcia/kbuilder/adapters/ksqlserver
   ```
 - `ksqlite3.New(ctx, os.Getenv("DATBAASE_PATH"), ksql.Config{})` for SQLite3, it works on top of `database/sql`
   and [mattn/go-sqlite3](https://github.com/mattn/go-sqlite3) which relies on CGO, download it with:
 
   ```bash
-  go get github.com/vingarcia/ksql/adapters/ksqlite3
+  go get github.com/vingarcia/kbuilder/adapters/ksqlite3
   ```
 - `ksqlite.New(ctx, os.Getenv("DATABASE_PATH"), ksql.Config{})` for SQLite, it works on top of `database/sql`
   and [modernc.org/sqlite](https://modernc.org/sqlite) which does not require CGO, download it with:
 
   ```bash
-  go get github.com/vingarcia/ksql/adapters/modernc-ksqlite
+  go get github.com/vingarcia/kbuilder/adapters/modernc-ksqlite
   ```
 
 For more detailed examples see:

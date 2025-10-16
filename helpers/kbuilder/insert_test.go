@@ -3,8 +3,8 @@ package kbuilder_test
 import (
 	"testing"
 
-	"github.com/vingarcia/ksql/helpers/kbuilder"
-	tt "github.com/vingarcia/ksql/helpers/testtools"
+	"github.com/vingarcia/kbuilder/helpers/kbuilder"
+	tt "github.com/vingarcia/kbuilder/helpers/testtools"
 )
 
 func TestInsertQuery(t *testing.T) {

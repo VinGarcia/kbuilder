@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/vingarcia/ksql/helpers/structs"
+	"github.com/vingarcia/kbuilder/helpers/structs"
 )
 
 // StructToMap converts any struct type to a map based on

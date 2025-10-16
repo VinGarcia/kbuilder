@@ -7,8 +7,8 @@ import (
 	"io"
 	"testing"
 
-	tt "github.com/vingarcia/ksql/helpers/testtools"
-	"github.com/vingarcia/ksql/sqldialect"
+	tt "github.com/vingarcia/kbuilder/helpers/testtools"
+	"github.com/vingarcia/kbuilder/sqldialect"
 )
 
 func TestScanArgError(t *testing.T) {

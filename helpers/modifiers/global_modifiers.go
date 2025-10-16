@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/vingarcia/ksql/ksqlmodifiers"
+	"github.com/vingarcia/kbuilder/ksqlmodifiers"
 )
 
 // Here we keep all the registered modifiers

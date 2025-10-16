@@ -10,8 +10,8 @@ import (
 	"github.com/jackc/pgx/v5/pgxpool"
 	"github.com/ory/dockertest/v3"
 	"github.com/ory/dockertest/v3/docker"
-	"github.com/vingarcia/ksql"
-	"github.com/vingarcia/ksql/adapters/kpgx"
+	"github.com/vingarcia/kbuilder"
+	"github.com/vingarcia/kbuilder/adapters/kpgx"
 )
 
 func startExampleDB(ctx context.Context) (dbURL string, closer func()) {

@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/vingarcia/ksql/helpers/structs"
-	"github.com/vingarcia/ksql/sqldialect"
+	"github.com/vingarcia/kbuilder/helpers/structs"
+	"github.com/vingarcia/kbuilder/sqldialect"
 )
 
 // Insert is the struct template for building INSERT queries

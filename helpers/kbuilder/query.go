@@ -7,8 +7,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/vingarcia/ksql/helpers/structs"
-	"github.com/vingarcia/ksql/sqldialect"
+	"github.com/vingarcia/kbuilder/helpers/structs"
+	"github.com/vingarcia/kbuilder/sqldialect"
 )
 
 // Query is is the struct template for building SELECT queries.

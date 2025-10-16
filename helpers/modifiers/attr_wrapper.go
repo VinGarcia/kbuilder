@@ -4,7 +4,7 @@ import (
 	"context"
 	"database/sql/driver"
 
-	"github.com/vingarcia/ksql/ksqlmodifiers"
+	"github.com/vingarcia/kbuilder/ksqlmodifiers"
 )
 
 // AttrScanWrapper is the wrapper that allow us to intercept the Scan process

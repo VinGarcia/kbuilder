@@ -4,7 +4,7 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/vingarcia/ksql"
+	"github.com/vingarcia/kbuilder"
 )
 
 // SQLAdapter adapts the sql.DB type to be compatible with the `DBAdapter` interface

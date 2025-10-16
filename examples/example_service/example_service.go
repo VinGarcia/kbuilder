@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/vingarcia/ksql"
-	"github.com/vingarcia/ksql/nullable"
+	"github.com/vingarcia/kbuilder"
+	"github.com/vingarcia/kbuilder/nullable"
 )
 
 // UsersTable informs ksql that the ID column is named "id"

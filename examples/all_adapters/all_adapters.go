@@ -6,12 +6,12 @@ import (
 	"log"
 	"os"
 
-	"github.com/vingarcia/ksql"
-	"github.com/vingarcia/ksql/adapters/kmysql"
-	"github.com/vingarcia/ksql/adapters/kpgx"
-	"github.com/vingarcia/ksql/adapters/ksqlite3"
-	"github.com/vingarcia/ksql/adapters/ksqlserver"
-	ksqlite "github.com/vingarcia/ksql/adapters/modernc-ksqlite"
+	"github.com/vingarcia/kbuilder"
+	"github.com/vingarcia/kbuilder/adapters/kmysql"
+	"github.com/vingarcia/kbuilder/adapters/kpgx"
+	"github.com/vingarcia/kbuilder/adapters/ksqlite3"
+	"github.com/vingarcia/kbuilder/adapters/ksqlserver"
+	ksqlite "github.com/vingarcia/kbuilder/adapters/modernc-ksqlite"
 )
 
 // User ...

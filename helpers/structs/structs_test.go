@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	tt "github.com/vingarcia/ksql/helpers/testtools"
+	tt "github.com/vingarcia/kbuilder/helpers/testtools"
 )
 
 func TestGetTagInfo(t *testing.T) {

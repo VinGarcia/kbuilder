@@ -3,7 +3,7 @@ package kbuilder
 import (
 	"fmt"
 
-	"github.com/vingarcia/ksql/sqldialect"
+	"github.com/vingarcia/kbuilder/sqldialect"
 )
 
 // Builder is the basic container for injecting

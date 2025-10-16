@@ -1,4 +1,4 @@
-module github.com/vingarcia/ksql/benchmarks
+module github.com/vingarcia/kbuilder/benchmarks
 
 go 1.22
 
@@ -9,8 +9,8 @@ require (
 	github.com/jackc/pgx/v4 v4.18.1
 	github.com/jmoiron/sqlx v1.3.4
 	github.com/lib/pq v1.10.9
-	github.com/vingarcia/ksql v1.12.3
-	github.com/vingarcia/ksql/adapters/kpgx v0.0.0-00010101000000-000000000000
+	github.com/vingarcia/kbuilder v1.12.3
+	github.com/vingarcia/kbuilder/adapters/kpgx v0.0.0-00010101000000-000000000000
 	github.com/volatiletech/sqlboiler/v4 v4.12.0
 	github.com/volatiletech/strmangle v0.0.4
 	gorm.io/driver/postgres v1.2.2
@@ -43,6 +43,6 @@ require (
 )
 
 replace (
-	github.com/vingarcia/ksql => ../
-	github.com/vingarcia/ksql/adapters/kpgx => ../adapters/kpgx/
+	github.com/vingarcia/kbuilder => ../
+	github.com/vingarcia/kbuilder/adapters/kpgx => ../adapters/kpgx/
 )

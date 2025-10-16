@@ -4,8 +4,8 @@ import (
 	"context"
 
 	"github.com/jackc/pgx/v5/pgxpool"
-	"github.com/vingarcia/ksql"
-	"github.com/vingarcia/ksql/sqldialect"
+	"github.com/vingarcia/kbuilder"
+	"github.com/vingarcia/kbuilder/sqldialect"
 )
 
 // NewFromPgxPool builds a ksql.DB from a *pgxpool.Pool instance

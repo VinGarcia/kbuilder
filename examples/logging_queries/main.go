@@ -3,8 +3,8 @@ package main
 import (
 	"context"
 
-	"github.com/vingarcia/ksql"
-	"github.com/vingarcia/ksql/adapters/ksqlite3"
+	"github.com/vingarcia/kbuilder"
+	"github.com/vingarcia/kbuilder/adapters/ksqlite3"
 )
 
 type User struct {

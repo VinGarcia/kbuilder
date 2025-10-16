@@ -5,8 +5,8 @@ import (
 	"io"
 	"testing"
 
-	"github.com/vingarcia/ksql"
-	"github.com/vingarcia/ksql/sqldialect"
+	"github.com/vingarcia/kbuilder"
+	"github.com/vingarcia/kbuilder/sqldialect"
 )
 
 func TestAdapter(t *testing.T) {

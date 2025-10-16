@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/vingarcia/ksql"
+	"github.com/vingarcia/kbuilder"
 )
 
 var usersTable = ksql.NewTable("users", "id")

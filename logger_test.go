@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"testing"
 
-	tt "github.com/vingarcia/ksql/helpers/testtools"
+	tt "github.com/vingarcia/kbuilder/helpers/testtools"
 )
 
 func TestCtxLog(t *testing.T) {

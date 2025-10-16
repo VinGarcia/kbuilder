@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	tt "github.com/vingarcia/ksql/helpers/testtools"
-	"github.com/vingarcia/ksql/nullable"
+	tt "github.com/vingarcia/kbuilder/helpers/testtools"
+	"github.com/vingarcia/kbuilder/nullable"
 )
 
 func TestStructToMap(t *testing.T) {

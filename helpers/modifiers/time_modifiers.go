@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/vingarcia/ksql/ksqlmodifiers"
+	"github.com/vingarcia/kbuilder/ksqlmodifiers"
 )
 
 // This one is useful for updatedAt timestamps

@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/vingarcia/ksql"
-	tt "github.com/vingarcia/ksql/helpers/testtools"
+	"github.com/vingarcia/kbuilder"
+	tt "github.com/vingarcia/kbuilder/helpers/testtools"
 )
 
 func TestMock(t *testing.T) {

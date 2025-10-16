@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/vingarcia/ksql"
-	"github.com/vingarcia/ksql/adapters/kpgx"
+	"github.com/vingarcia/kbuilder"
+	"github.com/vingarcia/kbuilder/adapters/kpgx"
 )
 
 var UsersTable = ksql.NewTable("users", "user_id")

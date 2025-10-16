@@ -9,7 +9,7 @@ import (
 	reflect "reflect"
 
 	gomock "github.com/golang/mock/gomock"
-	ksql "github.com/vingarcia/ksql"
+	ksql "github.com/vingarcia/kbuilder"
 )
 
 // MockProvider is a mock of Provider interface.

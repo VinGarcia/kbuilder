@@ -10,12 +10,12 @@ require (
 	github.com/jackc/pgx/v5 v5.7.1
 	github.com/ory/dockertest/v3 v3.11.0
 	github.com/stretchr/testify v1.9.0
-	github.com/vingarcia/ksql v1.12.3
-	github.com/vingarcia/ksql/adapters/kmysql v1.10.0
-	github.com/vingarcia/ksql/adapters/kpgx v1.10.0
-	github.com/vingarcia/ksql/adapters/ksqlite3 v1.10.0
-	github.com/vingarcia/ksql/adapters/ksqlserver v1.10.0
-	github.com/vingarcia/ksql/adapters/modernc-ksqlite v1.10.0
+	github.com/vingarcia/kbuilder v1.12.3
+	github.com/vingarcia/kbuilder/adapters/kmysql v1.10.0
+	github.com/vingarcia/kbuilder/adapters/kpgx v1.10.0
+	github.com/vingarcia/kbuilder/adapters/ksqlite3 v1.10.0
+	github.com/vingarcia/kbuilder/adapters/ksqlserver v1.10.0
+	github.com/vingarcia/kbuilder/adapters/modernc-ksqlite v1.10.0
 )
 
 require (

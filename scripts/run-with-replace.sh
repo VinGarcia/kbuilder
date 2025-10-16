@@ -4,7 +4,7 @@ cmd=$@
 
 # Update go.mod with replace so testing will
 # run against the local version of ksql:
-echo "replace github.com/vingarcia/ksql => ../../" >> go.mod
+echo "replace github.com/vingarcia/kbuilder => ../../" >> go.mod
 go mod tidy
 
 # Run the input command:

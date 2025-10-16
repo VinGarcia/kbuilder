@@ -4,8 +4,8 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/vingarcia/ksql"
-	"github.com/vingarcia/ksql/sqldialect"
+	"github.com/vingarcia/kbuilder"
+	"github.com/vingarcia/kbuilder/sqldialect"
 
 	// This is imported here so the user don't
 	// have to worry about it when he uses it.

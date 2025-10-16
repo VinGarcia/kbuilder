@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/vingarcia/ksql/ksqlmodifiers"
+	"github.com/vingarcia/kbuilder/ksqlmodifiers"
 )
 
 // This modifier serializes objects as JSON when

@@ -5,7 +5,7 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/vingarcia/ksql/sqldialect"
+	"github.com/vingarcia/kbuilder/sqldialect"
 )
 
 // ErrRecordNotFound informs that a given query failed because the record was not found.

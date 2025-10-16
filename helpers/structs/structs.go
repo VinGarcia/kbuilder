@@ -6,8 +6,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/vingarcia/ksql/helpers/modifiers"
-	"github.com/vingarcia/ksql/ksqlmodifiers"
+	"github.com/vingarcia/kbuilder/helpers/modifiers"
+	"github.com/vingarcia/kbuilder/ksqlmodifiers"
 )
 
 // StructInfo stores metainformation of the struct

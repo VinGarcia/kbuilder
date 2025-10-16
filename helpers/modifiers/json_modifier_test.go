@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	tt "github.com/vingarcia/ksql/helpers/testtools"
-	"github.com/vingarcia/ksql/ksqlmodifiers"
+	tt "github.com/vingarcia/kbuilder/helpers/testtools"
+	"github.com/vingarcia/kbuilder/ksqlmodifiers"
 )
 
 func TestAttrScan(t *testing.T) {

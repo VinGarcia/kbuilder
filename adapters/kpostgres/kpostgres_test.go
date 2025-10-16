@@ -12,8 +12,8 @@ import (
 	_ "github.com/lib/pq"
 	"github.com/ory/dockertest/v3"
 	"github.com/ory/dockertest/v3/docker"
-	"github.com/vingarcia/ksql"
-	"github.com/vingarcia/ksql/sqldialect"
+	"github.com/vingarcia/kbuilder"
+	"github.com/vingarcia/kbuilder/sqldialect"
 )
 
 func TestSQLAdapter(t *testing.T) {

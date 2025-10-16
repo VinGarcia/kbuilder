@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/vingarcia/ksql"
-	"github.com/vingarcia/ksql/adapters/ksqlite3"
-	"github.com/vingarcia/ksql/nullable"
+	"github.com/vingarcia/kbuilder"
+	"github.com/vingarcia/kbuilder/adapters/ksqlite3"
+	"github.com/vingarcia/kbuilder/nullable"
 )
 
 type User struct {

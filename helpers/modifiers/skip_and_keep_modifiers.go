@@ -1,6 +1,6 @@
 package modifiers
 
-import "github.com/vingarcia/ksql/ksqlmodifiers"
+import "github.com/vingarcia/kbuilder/ksqlmodifiers"
 
 var skipInsertsModifier = ksqlmodifiers.AttrModifier{
 	SkipOnInsert: true,
