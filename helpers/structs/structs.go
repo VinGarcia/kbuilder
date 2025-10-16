@@ -6,7 +6,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/vingarcia/ksql/internal/modifiers"
+	"github.com/vingarcia/ksql/helpers/modifiers"
 	"github.com/vingarcia/ksql/ksqlmodifiers"
 )
 

@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/vingarcia/ksql"
-	tt "github.com/vingarcia/ksql/internal/testtools"
+	tt "github.com/vingarcia/ksql/helpers/testtools"
 )
 
 func TestMock(t *testing.T) {

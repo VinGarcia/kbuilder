@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/vingarcia/ksql/internal/structs"
+	"github.com/vingarcia/ksql/helpers/structs"
 	"github.com/vingarcia/ksql/sqldialect"
 )
 

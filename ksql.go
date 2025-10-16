@@ -10,8 +10,8 @@ import (
 	"sync"
 	"unicode"
 
-	"github.com/vingarcia/ksql/internal/modifiers"
-	"github.com/vingarcia/ksql/internal/structs"
+	"github.com/vingarcia/ksql/helpers/modifiers"
+	"github.com/vingarcia/ksql/helpers/structs"
 	"github.com/vingarcia/ksql/ksqlmodifiers"
 	"github.com/vingarcia/ksql/sqldialect"
 )

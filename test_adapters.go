@@ -12,9 +12,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/vingarcia/ksql/internal/modifiers"
-	"github.com/vingarcia/ksql/internal/structs"
-	tt "github.com/vingarcia/ksql/internal/testtools"
+	"github.com/vingarcia/ksql/helpers/modifiers"
+	"github.com/vingarcia/ksql/helpers/structs"
+	tt "github.com/vingarcia/ksql/helpers/testtools"
 	"github.com/vingarcia/ksql/ksqlmodifiers"
 	"github.com/vingarcia/ksql/nullable"
 	"github.com/vingarcia/ksql/sqldialect"

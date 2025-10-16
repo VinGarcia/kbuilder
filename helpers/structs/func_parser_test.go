@@ -4,8 +4,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/vingarcia/ksql/internal/structs"
-	tt "github.com/vingarcia/ksql/internal/testtools"
+	"github.com/vingarcia/ksql/helpers/structs"
+	tt "github.com/vingarcia/ksql/helpers/testtools"
 )
 
 type user struct {

@@ -3,7 +3,7 @@ package modifiers
 import (
 	"testing"
 
-	tt "github.com/vingarcia/ksql/internal/testtools"
+	tt "github.com/vingarcia/ksql/helpers/testtools"
 	"github.com/vingarcia/ksql/ksqlmodifiers"
 )
 

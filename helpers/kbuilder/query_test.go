@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"github.com/vingarcia/ksql/internal/kbuilder"
-	tt "github.com/vingarcia/ksql/internal/testtools"
+	"github.com/vingarcia/ksql/helpers/kbuilder"
+	tt "github.com/vingarcia/ksql/helpers/testtools"
 )
 
 type User struct {
